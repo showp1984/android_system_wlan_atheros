@@ -29,8 +29,8 @@ endif
 endif
 
 ATH_ARCH_CPU_TYPE := arm
-ATH_LINUXPATH := /media/data/downloads/android/hp-kernel-tenderloin
-ATH_CROSS_COMPILE_TYPE := /media/data/downloads/android/android-ndk-r6/toolchains/arm-linux-androideabi-4.4.3/prebuilt/linux-x86/bin/arm-linux-androideabi-
+ATH_LINUXPATH := ../../../
+ATH_CROSS_COMPILE_TYPE := ~/_android/toolchain/android-toolchain-eabi/bin/arm-eabi-
 
 ifndef ATH_LINUXPATH
 # Comment out the following variable for your platform 

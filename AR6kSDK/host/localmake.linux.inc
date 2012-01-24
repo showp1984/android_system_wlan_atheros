@@ -30,7 +30,7 @@ endif
 
 ATH_ARCH_CPU_TYPE := arm
 ATH_LINUXPATH := ../../../
-ATH_CROSS_COMPILE_TYPE := ~/_android/toolchain/android-toolchain-eabi/bin/arm-eabi-
+ATH_CROSS_COMPILE_TYPE := ~/_android/toolchain/arm-none-eabi-gcc-4_6/bin/$(CROSS_COMPILE)
 
 ifndef ATH_LINUXPATH
 # Comment out the following variable for your platform 
